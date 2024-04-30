@@ -5,7 +5,7 @@
   </head>
 
   <body style="color: rgb(55, 14, 205); background-color: bisque">
-    <h1 style="text-align: center; color: rgb(165, 42, 42)">
+    <table><h1 style="text-align: center; color: rgb(165, 42, 42)">
       <u>Student Ragistation Form</u>
     </h1>
     <label for="fname">First Name:</label>
@@ -102,8 +102,16 @@
     <input type="radio" name="Course" id="J" />
     <label for="D">Dot Net</label>
     <input type="radio" name="Course" id="D" /><br /><br />
-    <label for="H">Higher Education:</label>
-    <input type="text" name="" id="H" style="margin-left: 10px" /><br /><br />
+    <label for="Course">Course:</label>
+    <select name="Course:" id="Course" style="margin-left: 80px;">
+      <option value="Course">Course</option>
+          <option value="BCA">BCA</option>
+          <option value="BBA">BBA</option>
+          <option value="B.Tech">B.Tech</option>
+          <option value="MBA">MBA</option>
+          <option value="MCA">MCA</option>
+          <option value="M.Tech">M.Tech</option>
+    </select ><br /><br />
     <label for="Y">Year of Pass Out:</label>
     <input
       type="Year"
@@ -129,5 +137,9 @@
       value="Reset"
       style="background-color: red; font-size: medium"
     />
+    
+    
+    
+        
   </body>
 </html>
